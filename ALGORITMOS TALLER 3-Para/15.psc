@@ -2,10 +2,10 @@ Algoritmo CUADRADO_DE_N
 	Definir n_k_j_impar_cuadrado Como Real
 	Escribir 'digite el valor de n'
 	Leer n
-	Para k<-1 Hasta n Con Paso 1 Hacer
+	Para k <- 1 Hasta n Con Paso 1 Hacer
 		cuadrado <- 0
 		impar <- 1
-		Para j<-1 Hasta k Con Paso 1 Hacer
+		Para j <- 1 Hasta k Con Paso 1 Hacer
 			cuadrado <- cuadrado+impar
 			impar <- impar+2
 		FinPara

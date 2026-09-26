@@ -1,14 +1,8 @@
-Algoritmo Sumar_1_Hasta_N
-    Definir N, i, suma Como Entero
-    Escribir "Ingrese el valor de N:"
-    Leer N
-    suma <- 0
-    Para i <- 1 Hasta N Con Paso 1 Hacer
-        Escribir i
-        suma <- suma + i
-    FinPara
-    Escribir "La suma es: ", suma
+Algoritmo Calcular_e_imprimir_los_números_pares_desde_1_hasta_N
+	Definir N Como Real
+	Escribir "vamos a calcular los numeros pares desdel el 1 hasta el amximo de la ejecucion"
+	leer N
+	Para I <- 2 Hasta N Con Paso 2 Hacer
+		Escribir I
+	Fin Para
 FinAlgoritmo
-
-
-

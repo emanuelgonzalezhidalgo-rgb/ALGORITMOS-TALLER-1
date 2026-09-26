@@ -1,7 +1,5 @@
-Algoritmo Imprimir_Sena
-    Definir i Como Entero
-    Para i <- 1 Hasta 5 Con Paso 1 Hacer
-        Escribir "Sena"
-    FinPara
+Algoritmo cinco_veces_la_palabra_Sena
+	Para i = 1 hasta 5 Hacer
+		escribir "Sena"
+	FinPara
 FinAlgoritmo
-

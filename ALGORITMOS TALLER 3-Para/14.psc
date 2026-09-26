@@ -1,32 +1,21 @@
-Algoritmo Serie_Factoriales
-    Definir N, i, j, signo Como Entero
-    Definir S, factorial Como Real
-    Escribir "Ingrese el valor de N:"
-    Leer N
-    i <- 1
-    signo <- 1
-    S <- 0
-    Repetir
-        factorial <- 1
-        j <- 1
-        Mientras j <= i Hacer
-            factorial <- factorial * j
-            j <- j + 1
-        FinMientras
-        S <- S + signo * (1 / factorial)
-        signo <- signo * (-1)
-        i <- i + 2
-    Hasta Que i > N
-    Escribir "El valor de S es: ", S
+Algoritmo VALOR_S_CASO05
+	Definir n, i, denominador, termino, factorial, j, s como real
+	s = 0
+	denominador = 1
+	Escribir "digite el valor de N"
+	leer n
+	Para i<- 1 Hasta n Con Paso 1 Hacer
+		factorial= 1
+		Para j <- 1 Hasta denominador Con Paso 1 Hacer
+			factorial = factorial*j
+		Fin Para
+		termino = 1/factorial
+		si i MOD 2=0 Entonces
+			s = s - termino
+		SiNo
+			s = s + termino
+		FinSi
+		denominador= denominador + 2
+	Fin Para
+	Escribir "el valor de s es:" s
 FinAlgoritmo
-
-
-
-
-
-
-
-
-
-
-
